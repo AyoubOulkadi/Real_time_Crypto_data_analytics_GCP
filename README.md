@@ -23,6 +23,12 @@ Retrieve historical data from the Binance API using Python and store it in a sui
 <h4> Creation of a topic in Cloud Pub/Sub </h4>
 <a target="_blank" href="https://imageupload.io/1d6wXvDViFRq4rj"><img  src="https://imageupload.io/ib/T27sAkCmxdyFBBe_1696593521.jpg" alt="Cloud Pub-Sub.JPG"/></a> 
 
-<h4> Ingest</h4>
+<h4> Data generated from Binance API is sended in a bucket name 'ayoubcryptodata' </h4>
+<a target="_blank" href="https://imageupload.io/eshj3qV6jR8525k"><img  src="https://imageupload.io/ib/C3ABvRgYlNeRM6J_1696601032.jpg" alt="GCS1.JPG"/></a>
 
+<a target="_blank" href="https://imageupload.io/u4xMZ4ZX2FI4acX"><img  src="https://imageupload.io/ib/M4frD0lpOCS45an_1696601426.jpg" alt="uploa.JPG"/></a>
 
+<h4> Data Transformations in BigQuery </h4>
+<a target="_blank" href="https://imageupload.io/K53MFp61V85FMmX"><img  src="https://imageupload.io/ib/aabD5dWsrAfuhyp_1696601579.jpg" alt="Crypto-Table.JPG"/></a>
+
+<h4> Data visualization in PowerBI</h4>
