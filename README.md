@@ -25,4 +25,4 @@ Retrieve historical data from the Binance API using Python and store it in a sui
 
 <h4> Ingest</h4>
 
-**Data Visualization**: The final step involves visualizing the data using charts, graphs, and dashboards. This allows you to communicate your findings effectively and make informed decisions based on the analyzed data.
+
