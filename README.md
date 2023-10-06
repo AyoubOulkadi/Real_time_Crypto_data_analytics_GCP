@@ -4,6 +4,8 @@
 <h2> Project Architecture </h2>
 <a target="_blank" href="https://imageupload.io/ROXMOmQrF6LFouu"><img  src="https://imageupload.io/ib/zwiZmT4pmEBjnuF_1696522451.jpeg" alt="Blank diagram.jpeg"/></a>
 <h3>Data Collection from Binance API</h3>
+
+
 Retrieve historical data from the Binance API using Python and store it in a suitable data structure
 
 **Data Collection**: The pipeline begins by fetching real-time cryptocurrency market data from the Binance API. This includes information such as price, volume, and order book data for various cryptocurrencies.
