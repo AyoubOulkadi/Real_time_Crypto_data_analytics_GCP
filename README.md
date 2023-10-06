@@ -18,4 +18,11 @@ Retrieve historical data from the Binance API using Python and store it in a sui
 
 **SQL Transformations**: SQL-based transformations can be applied to the stored data to generate meaningful insights and reports. You can perform complex queries and aggregations to gain deeper insights into the cryptocurrency market.
 
+
+
+<h4> Creation of a topic in Cloud Pub/Sub </h4>
+<a target="_blank" href="https://imageupload.io/1d6wXvDViFRq4rj"><img  src="https://imageupload.io/ib/T27sAkCmxdyFBBe_1696593521.jpg" alt="Cloud Pub-Sub.JPG"/></a> 
+
+<h4> Ingest</h4>
+
 **Data Visualization**: The final step involves visualizing the data using charts, graphs, and dashboards. This allows you to communicate your findings effectively and make informed decisions based on the analyzed data.
