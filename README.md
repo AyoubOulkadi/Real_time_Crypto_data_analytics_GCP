@@ -32,3 +32,4 @@ Retrieve historical data from the Binance API using Python and store it in a sui
 <a target="_blank" href="https://imageupload.io/K53MFp61V85FMmX"><img  src="https://imageupload.io/ib/aabD5dWsrAfuhyp_1696601579.jpg" alt="Crypto-Table.JPG"/></a>
 
 <h4> Data visualization in PowerBI</h4>
+<a target="_blank" href="https://imageupload.io/5MJp8lJqA4UtcRh"><img  src="https://imageupload.io/ib/NwKQKNw8diPeinr_1696607225.jpg" alt="Dashboard Crypto.JPG"/></a>
