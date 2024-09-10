@@ -2,6 +2,8 @@ from google.cloud import bigquery
 import os
 import csv
 import time
+
+
 # Set the path to your JSON key file
 keyfile_path = "orbital-surge-359121-1dd5e9f4ccac.json"
 
@@ -9,7 +11,7 @@ keyfile_path = "orbital-surge-359121-1dd5e9f4ccac.json"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = keyfile_path
 
 # Set your Google Cloud project ID
-project_id = "orbital-surge-359121"  # Replace with your actual project ID
+project_id = "orbital-surge-359121"  
 
 # Initialize a BigQuery client
 client = bigquery.Client(project=project_id)
@@ -18,8 +20,9 @@ client = bigquery.Client(project=project_id)
 gcs_uri = "gs://ayoubcryptodata/cryptodata1.csv"
 
 # Set the BigQuery dataset and table information
-dataset_id = "Crytopdataset"  # Remove the .json extension
-table_id = "Cryptotable"  # Remove the .json extension
+dataset_id = "Crytopdataset"  
+table_id = "Cryptotable"  
+
 
 # Define the schema of the table (optional if schema is not inferred)
 schema = [

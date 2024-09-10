@@ -28,7 +28,7 @@ def get_binance_historical_data(symbol, interval, start_date, end_date):
         "interval": interval,
         "startTime": start_timestamp,
         "endTime": end_timestamp,
-        "limit": 1000,  # Maximum limit per request
+        "limit": 1000,  
     }
     
     historical_data = []
@@ -114,11 +114,8 @@ def main():
     historical_data = get_binance_historical_data(symbol, interval, start_date, end_date)
 
     if historical_data:
-        # Publish to Pub/Sub
         publish_to_pubsub(project_id, topic_name, historical_data)
         logger.info(f"Historical data collected and published to Pub/Sub topic: {topic_name}")
-
-        # Upload to GCS in CSV format
         upload_to_gcs(bucket_name, "cryptodata.csv", historical_data, column_headers)
 
 if __name__ == "__main__":
