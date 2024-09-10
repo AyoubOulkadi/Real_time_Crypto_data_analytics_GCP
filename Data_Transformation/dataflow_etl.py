@@ -1,5 +1,6 @@
 import apache_beam as beam
 import csv
+from utils.config import input_file, output_file 
 
 def my_transformation(element):
     # Replace this with your actual transformation logic
@@ -8,11 +9,6 @@ def my_transformation(element):
     return transformed_data
 
 def run():
-    # Define your Google Cloud Storage paths
-    input_file = 'gs://ayoubcryptodata/cryptodata.csv'
-    output_file = 'gs://ayoubcryptodata/cryptodata1'
-
-    # Create a Dataflow pipeline
     with beam.Pipeline() as p:
         (p
          | 'ReadInput' >> beam.io.ReadFromText(input_file)
